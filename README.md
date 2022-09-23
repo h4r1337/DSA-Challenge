@@ -27,3 +27,29 @@ Learn all these concepts:
 * What is the complexity of operations get, set, insert, delete, initialize, declare, and search in a linked list ?
 * Difference between singly linked list and doubly linked list.
 
+## Day 03
+
+Implement a singly linked list with the following functions:
+
+* `insert_at_beginning()`
+  - Arguments: `data`
+  - Functionality: Add the given data to the beginning of the linked list
+* `insert_at_end()`
+  - Arguments: `data`
+  - Functionality: add the given data to the end of the linked list
+* `insert_after_value()`
+  - Arguments: `element`, `data`
+  - Functionality: add the given `data` after the `element`
+* `insert_from_array()`
+  - Arguments: `data(array)`
+  - Functionality: add all the elements of `data` to end of the linked list one after other
+* `delete_by_value()`
+  - Arguments: `data`
+  - Functionality: delete the first occurring `data`
+* `if_value_exists()`
+  - Arguments: `data`
+  - Functionality: will return boolean true if data exists or else false
+* `total_node_count()`
+  - Functionality: will return int value of total elements in the linked list
+* `display_nodes()`
+  - Functionality: will print all element one by one
