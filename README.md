@@ -53,3 +53,22 @@ Implement a singly linked list with the following functions:
   - Functionality: will return int value of total elements in the linked list
 * `display_nodes()`
   - Functionality: will print all element one by one
+
+## Day 04
+
+Implement a doubly linked list with the following functions:
+
+* `insert_at_end()`
+  - Arguments: `data`
+  - Functionality: add the given data to the end of the linked list
+* `delete_by_value()`
+  - Arguments: `data`
+  - Functionality: delete the first occurring `data`
+* `if_value_exists()`
+  - Arguments: `data`
+  - Functionality: will return boolean true if data exists or else false
+* `display_nodes()`
+  - Functionality: will print all element one by one
+* `display_nodes_in_reverse()`
+  - Functionality: will print all element one by one in reverse order.
+
